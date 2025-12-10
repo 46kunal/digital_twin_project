@@ -1,0 +1,52 @@
+
+# Python
+
+__pycache__/
+
+*.pyc
+
+
+
+# Virtual env
+
+venv/
+
+.env
+
+
+
+# Logs
+
+*.log
+
+logs/
+
+
+
+# Databases
+
+*.db
+
+
+
+# Runtime
+
+pids/
+
+
+
+# Reports / generated files
+
+backend/reports/generated/
+
+*.pdf
+
+*.xml
+
+
+
+# OS junk
+
+.DS_Store
+
+
