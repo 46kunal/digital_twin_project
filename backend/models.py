@@ -86,6 +86,7 @@ class Scan(db.Model):
     phase = db.Column(db.String(80), default="initializing")
     eta = db.Column(db.String(32), default="")
     log = db.Column(db.Text, default="")
+    log_data = db.Column(db.Text, default="")
     raw_output = db.Column(db.Text, nullable=True)
 
     vulnerabilities = db.relationship(
